@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/Company/OGTechLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/szi5bmn.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.scss">
+    <link rel="stylesheet" href="styles/contact/contact.scss">
+    <link rel="stylesheet" href="styles/Animations/Animations.scss">
+    <title>Helios</title>
+</head>
+<body>
+    <div class="GroundZero">
+
+        <!-- Navigation -->
+        <header class="Header" id="Header">
+            <a href="./index.html" class="SiteLogo"><img style="margin-right: 6px;" src="./assets/Company/ogtechlogo.png"></img> Helios</a>
+            <nav class="Header_Nav">
+                <a href="./about.html" class="Nav_Link">About Us</a>
+                <a href="./work.html" class="Nav_Link">Our Work</a>
+                <a href="./philosophy.html" class="Nav_Link">What We Do</a>
+                <a href="./services.html" class="Nav_Link">Our Services</a>
+                <a href="./contact.html" class="Nav_Link Active_Page">Contact Us</a>
+            </nav>
+            <div class="MobileMenuIcon" id="MobileMenuIcon">
+                <div class="MenuIconBar Bar1"></div>
+                <div class="MenuIconBar Bar2"></div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <header class="Header MobileHeader" id="MobileHeader">
+            <a href="./index.html" class="SiteLogo MobileSiteLogo"><img style="margin-right: 6px;" src="./assets/Company/ogtechlogo.png"></img> Helios</a>
+            <div class="MobileMenuIcon MobileMenuIcon-Active" id="MobileMenuClose">
+                <div class="MenuIconBar Mobile-MenuIconBar1 Bar1"></div>
+                <div class="MenuIconBar Mobile-MenuIconBar2 Bar2"></div>
+            </div>
+        </header>
+
+        <!-- Mobile Menu -->
+        <div class="MobileNav" id="MobileNav">
+            <div class="MobileNav_Wrap">
+                <ul class="MobileNav_Links">
+                    <li class="MobileNav_ListItem">
+                        <a href="./about.html" class="MobileNav_link">About Us</a>
+                    </li>
+                    <li class="MobileNav_ListItem">
+                        <a href="./work.html" class="MobileNav_link">Our Work</a>
+                    </li>
+                    <li class="MobileNav_ListItem">
+                        <a href="./philosophy.html" class="MobileNav_link">What We Do</a>
+                    </li>
+                    <li class="MobileNav_ListItem">
+                        <a href="./services.html" class="MobileNav_link">Our Services</a>
+                    </li>
+                    <li class="MobileNav_ListItem">
+                        <a href="./contact.html" class="MobileNav_link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Constants -->
+            <!-- Connect Icon -->
+            <a href="./contact.html" class="Constants-ConnectIcon" id="Landing-Constants-ConnectIcon">
+                <img src="./assets/ConnectIcon.svg" alt="Mail Icon" id="ConnectIconWhite">
+                <img src="./assets/ConnectIconOrange.svg" alt="Mail Icon" id="ConnectIconOrange">
+            </a>
+
+        <div class="Constants">
+            <!-- Left Fixed -->
+            <div class="Constants_LeftFixed">
+                <div class="Constants_LeftFixedWrap">
+                    <div class="Constants_LeftFixed-AddressWrap">
+                        <p class="Constants_LeftFixed-Address" id="Constants_LeftFixed-Address">
+                            1 Market St, Sydney, Australia
+                        </p>
+                    </div>
+                    <div class="Constants_LeftFixed-Socials" id="Constants_LeftFixed-Socials">
+                        <div class="Social1">
+                            <a href="">
+                                <img src="./assets/InstagramIconWhite.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="Social2">
+                            <a href="">
+                                <img src="./assets/dribbble-ball-mark-White.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center Logo -->
+            <p class="Constants-Logo">
+                Helios Solutions
+            </p>
+            
+        </div>
+
+        <!--Content Wrap -->
+        <div class="Content_Wrap">
+
+            <!-- Intro -->
+            <div class="Contact_Intro">
+                <div class="Contact_Intro-Wrap">
+                    <p class="Contact_Intro-Header" id="Contact_Intro-Header">Work <span class="Color-Orange">together.</span></p>
+                    <p class="Contact_Intro-Right" id="Contact_Intro-Right">Our short questionnaire below is a great first step and a way to get to know you better. You can always contact our founder, Jake, at jake@helios.com.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div class="Contact_Form">
+                <div class="Contact_Form-Wrap">
+                    <form action="post" method="POST" class="Contact_Form-Form">
+                        <div class="Contact_Form-Body">
+
+                            <ul class="Contact_Form-Item-Container" id="Contact_Form-Main-List">
+                                <li class="Contact_Form-item Label1"
+                                id="Contact_Form-item">
+                                    <p class="Contact_Form-Label">01. What is your idea? What are you working on?</p>
+                                </li>
+                                <li class="Contact_Form-item">
+                                   <input type="text" name="Company Name" id="WhatAreYouLookingFor" class="Contact-Form-TextField" placeholder="What is your idea">
+                                </li>
+                                <li class="Contact_Form-item Label1">
+                                    <p class="Contact_Form-Label">02. Tell us about your business?</p>
+                                </li>
+                                <li class="Contact_Form-Item MultiSection">
+                                    <ul class="Contact_Form-Sub-Item-Container" id="Contact_Form-Sub-Item-Container">
+                                        <li class="Contact_Form-Sub-Item Text-Filed">
+                                            <input type="text" name="Company Name" id="CompanyName" class="Contact-Form-TextField" placeholder="What is your business?">
+                                        </li>
+                                        
+                                        <li class="Contact_Form-Sub-Item Text-Filed">
+                                            <input type="url" name="CompanySite" id="CompanySite" class="Contact-Form-TextField" placeholder="What is your website URL?">
+                                        </li>
+                                        <li class="Contact_Form-Sub-Item Text-Filed">
+                                            <input type="text" name="Problem" id="Problem" class="Contact-Form-TextField" placeholder="What are your problems?">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="Contact_Form-item Label1">
+                                    <p class="Contact_Form-Label">03. How can we contact you?</p>
+                                </li>
+                                <li class="Contact_Form-Item MultiSection">
+                                    <ul class="Contact_Form-Sub-Item-Container" id="Contact_Form-Sub-Item-Container">
+                                        <li class="Contact_Form-Sub-Item Text-Filed">
+                                            <input type="text" name="Contact Name" id="ContactName" class="Contact-Form-TextField" placeholder="Phone">
+                                        </li>
+                                        <li class="Contact_Form-Sub-Item Text-Filed">
+                                            <input type="email" name="Email" id="Email" class="Contact-Form-TextField" placeholder="Email">
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="Contact_Form-item Label1">
+                                    <p class="Contact_Form-Label">04. How did you hear about us?</p>
+                                </li>
+                                <ul class="Contact_Form-Sub-Item-Container">
+                                    <li class="Contact_Form-Sub-Item Text-Filed">
+                                        <input type="text" name="Company Name" id="CompanyName" class="Contact-Form-TextField" placeholder="Google, social media, a friend...">
+                                    </li>
+                                </ul>
+                            </ul>
+
+                            <button type="submit" class="Contact_Form-Submit-Button">
+                                <div class="Contact_Form-Submit-Box">
+                                    <img src="./assets/ArrowRight.svg" alt="Blue Arrow" class="Contact_Form-Submit-Arrow">
+                                </div>
+                                <p class="Contact_Form-Submit-Text">Send</p>
+                            </button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+
+        </div>
+        <!-- Content End -->
+
+        <!-- Footer -->
+        <Footer class="Footer" id="Footer">
+            <div class="Footer_Wrap">
+                <!-- Background -->
+                <div class="Footer_Background" id="Footer_Background"></div>
+                <!-- Left Fixed -->
+                <div class="Footer_Constants-LeftFixed">
+                    <div class="Footer_Constants-LeftFixedWrap">
+                        <div class="Footer_Constants-LeftFixed-AddressWrap">
+                            <p class="Footer_Constants-LeftFixed-Address">
+                                1 Market St, Sydney
+                            </p>
+                        </div>
+                        <div class="Footer_Constants-LeftFixed-Socials">
+                            <div class="Social1">
+                                <a href="">
+                                    <img src="./assets/InstagramIconWhite.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="Social2">
+                                <a href="">
+                                    <img src="./assets/dribbble-ball-mark-White.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Content -->
+                <div class="Footer_Content">
+                    <div class="Footer_Content-Wrap">
+                        <div class="Footer_Content-Plain">
+                            <p class="Footer_Content-Connect-Email">
+                                        Email us at
+                                        <br>
+                                        contact@helios.com
+                                    </p>
+                            <div class="Footer_Content-Connect">
+                                <a href="./contact.html" class="Footer_Content-Connect-Header">
+                                    <p class="Footer_Content-Connect-Header-Text">
+                                        <span class="Color-Orange">Grow</span>
+                                        <br>
+                                        with us
+                                    </p>
+                                    <img src="./assets/BentArrowOrange.svg" alt="Bent Arrow" class="Footer_Content-Connect-Header-Arrow">
+
+                                    </img>
+                                </a>
+                            </div>
+                            <div class="Footer_Content-Right">
+                                <div class="Footer_Content-Menu">
+                                    <p class="Footer_Content-Menu-Title">Helios</p>
+                                    <ul class="Footer_Content-Menu-List">
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./about.html" class="Footer_Content-Menu-List-Link">About Us</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./work.html" class="Footer_Content-Menu-List-Link">Our Work</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./philosophy.html" class="Footer_Content-Menu-List-Link">What We Do</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./services.html" class="Footer_Content-Menu-List-Link">Our Services</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./contact.html" class="Footer_Content-Menu-List-Link">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="Footer_Content-Location">
+                                    <p class="Footer_Content-Location-Title">Sydney</p>
+                                    <p class="Footer_Content-Location-Address">1 Market St</p>
+                                    <p class="Footer_Content-Location-Address">Australia</p>
+                                </div>
+                            </div>
+                            <p class="Footer_Content-Connect-Email-Mobile">
+                                Email us at
+                                <br>
+                                contact@helios.com
+                            </p>
+                        </div>
+                        <div class="Footer_Content-White" id="Footer_Content-White">
+                            <p class="Footer_Content-Connect-Email Footer_Color-White">
+                                Email us at
+                                <br>
+                                contact@helios.com
+                                    </p>
+                            <div class="Footer_Content-Connect">
+                                <a href="./contact.html" class="Footer_Content-Connect-Header">
+                                    <p class="Footer_Content-Connect-Header-Text Footer_Color-White">
+                                        <span class="Color-Orange Footer_Color-White">Grow</span>
+                                        <br>
+                                        with us
+                                    </p>
+                                    <img src="./assets/BentArrowWhite.svg" alt="Bent Arrow" class="Footer_Content-Connect-Header-Arrow">
+
+                                    </img>
+                                </a>
+                            </div>
+                            <div class="Footer_Content-Right">
+                                <div class="Footer_Content-Menu">
+                                    <p class="Footer_Content-Menu-Title Footer_Color-White">Helios</p>
+                                    <ul class="Footer_Content-Menu-List">
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./about.html" class="Footer_Content-Menu-List-Link Footer_Color-White">About Us</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./work.html" class="Footer_Content-Menu-List-Link Footer_Color-White">Our Work</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./philosophy.html" class="Footer_Content-Menu-List-Link Footer_Color-White">What We DO</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./services.html" class="Footer_Content-Menu-List-Link Footer_Color-White">Our Services</a>
+                                        </li>
+                                        <li class="Footer_Content-Menu-List-Item">
+                                            <a href="./contact.html" class="Footer_Content-Menu-List-Link Footer_Color-White">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="Footer_Content-Location">
+                                    <p class="Footer_Content-Location-Title Footer_Color-White">Sydney</p>
+                                    <p class="Footer_Content-Location-Address Footer_Color-White">1 Market St</p>
+                                    <p class="Footer_Content-Location-Address Footer_Color-White">Australia</p>
+                                </div>
+                            </div>
+                            <p class="Footer_Content-Connect-Email-Mobile Footer_Color-White">
+                                Email us at
+                                <br>
+                                contact@helios.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </Footer>
+    </div>
+    
+    <script src="./scripts/Global/GlobalAnimations.js"></script>
+    <script src="./scripts/Contact/Animations/ContactAnimations.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

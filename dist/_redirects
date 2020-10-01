@@ -1,0 +1,11 @@
+# for root
+/*              /index.html     200
+​
+# for the rest
+/about/*        /about.html     200
+/contact/*      /contact.html   200
+<<<<<<< HEAD
+​
+=======
+​
+>>>>>>> cb672293ccf2a0a4244663ea62b84bd75f438833
